@@ -13,7 +13,7 @@ dependencies {
   implementation("com.google.dagger:dagger:2.44.1")
   annotationProcessor("com.google.dagger:dagger-compiler:2.44.1")
 
-  testImplementation(platform("org.junit:junit-bom:5.9.1"))
+  testImplementation(platform("org.junit:junit-bom:5.9.2"))
   testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
