@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
   implementation("com.google.dagger:dagger:2.45")
-  annotationProcessor("com.google.dagger:dagger-compiler:2.45")
+  annotationProcessor("com.google.dagger:dagger-compiler:2.46")
 
   testImplementation(platform("org.junit:junit-bom:5.9.2"))
   testImplementation("org.junit.jupiter:junit-jupiter")
